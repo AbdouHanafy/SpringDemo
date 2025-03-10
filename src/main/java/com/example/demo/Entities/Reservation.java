@@ -21,6 +21,7 @@ public class Reservation implements Serializable {
     private String idReservation;
     @Temporal(TemporalType.DATE)
     private Date dateReservation;
+    private Date anneeUniversitaire;
     private Boolean estValide;
 
     @ManyToOne
